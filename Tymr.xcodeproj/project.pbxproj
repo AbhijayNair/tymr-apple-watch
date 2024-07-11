@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83BC1F092C40541F0086F952 /* Tymr Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 83BC1F082C40541F0086F952 /* Tymr Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		83BC1F0E2C40541F0086F952 /* TymrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F0D2C40541F0086F952 /* TymrApp.swift */; };
+		83BC1F102C40541F0086F952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F0F2C40541F0086F952 /* ContentView.swift */; };
+		83BC1F122C4054210086F952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BC1F112C4054210086F952 /* Assets.xcassets */; };
+		83BC1F152C4054210086F952 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BC1F142C4054210086F952 /* Preview Assets.xcassets */; };
+		83BC1F1F2C4054210086F952 /* Tymr_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F1E2C4054210086F952 /* Tymr_Watch_AppTests.swift */; };
+		83BC1F292C4054210086F952 /* Tymr_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F282C4054210086F952 /* Tymr_Watch_AppUITests.swift */; };
+		83BC1F2B2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F2A2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83BC1F0A2C40541F0086F952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83BC1EFC2C40541F0086F952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83BC1F072C40541F0086F952;
+			remoteInfo = "Tymr Watch App";
+		};
+		83BC1F1B2C4054210086F952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83BC1EFC2C40541F0086F952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83BC1F072C40541F0086F952;
+			remoteInfo = "Tymr Watch App";
+		};
+		83BC1F252C4054210086F952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83BC1EFC2C40541F0086F952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83BC1F072C40541F0086F952;
+			remoteInfo = "Tymr Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83BC1F312C4054210086F952 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				83BC1F092C40541F0086F952 /* Tymr Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83BC1F022C40541F0086F952 /* Tymr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tymr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BC1F082C40541F0086F952 /* Tymr Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tymr Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BC1F0D2C40541F0086F952 /* TymrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TymrApp.swift; sourceTree = "<group>"; };
+		83BC1F0F2C40541F0086F952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83BC1F112C4054210086F952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83BC1F142C4054210086F952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83BC1F1A2C4054210086F952 /* Tymr Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tymr Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BC1F1E2C4054210086F952 /* Tymr_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tymr_Watch_AppTests.swift; sourceTree = "<group>"; };
+		83BC1F242C4054210086F952 /* Tymr Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tymr Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BC1F282C4054210086F952 /* Tymr_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tymr_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		83BC1F2A2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tymr_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83BC1F052C40541F0086F952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC1F172C4054210086F952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC1F212C4054210086F952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83BC1EFB2C40541F0086F952 = {
+			isa = PBXGroup;
+			children = (
+				83BC1F0C2C40541F0086F952 /* Tymr Watch App */,
+				83BC1F1D2C4054210086F952 /* Tymr Watch AppTests */,
+				83BC1F272C4054210086F952 /* Tymr Watch AppUITests */,
+				83BC1F032C40541F0086F952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83BC1F032C40541F0086F952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F022C40541F0086F952 /* Tymr.app */,
+				83BC1F082C40541F0086F952 /* Tymr Watch App.app */,
+				83BC1F1A2C4054210086F952 /* Tymr Watch AppTests.xctest */,
+				83BC1F242C4054210086F952 /* Tymr Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83BC1F0C2C40541F0086F952 /* Tymr Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F0D2C40541F0086F952 /* TymrApp.swift */,
+				83BC1F0F2C40541F0086F952 /* ContentView.swift */,
+				83BC1F112C4054210086F952 /* Assets.xcassets */,
+				83BC1F132C4054210086F952 /* Preview Content */,
+			);
+			path = "Tymr Watch App";
+			sourceTree = "<group>";
+		};
+		83BC1F132C4054210086F952 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F142C4054210086F952 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83BC1F1D2C4054210086F952 /* Tymr Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F1E2C4054210086F952 /* Tymr_Watch_AppTests.swift */,
+			);
+			path = "Tymr Watch AppTests";
+			sourceTree = "<group>";
+		};
+		83BC1F272C4054210086F952 /* Tymr Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F282C4054210086F952 /* Tymr_Watch_AppUITests.swift */,
+				83BC1F2A2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Tymr Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83BC1F012C40541F0086F952 /* Tymr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BC1F322C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr" */;
+			buildPhases = (
+				83BC1F002C40541F0086F952 /* Resources */,
+				83BC1F312C4054210086F952 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83BC1F0B2C40541F0086F952 /* PBXTargetDependency */,
+			);
+			name = Tymr;
+			productName = Tymr;
+			productReference = 83BC1F022C40541F0086F952 /* Tymr.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		83BC1F072C40541F0086F952 /* Tymr Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BC1F2E2C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr Watch App" */;
+			buildPhases = (
+				83BC1F042C40541F0086F952 /* Sources */,
+				83BC1F052C40541F0086F952 /* Frameworks */,
+				83BC1F062C40541F0086F952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tymr Watch App";
+			productName = "Tymr Watch App";
+			productReference = 83BC1F082C40541F0086F952 /* Tymr Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83BC1F192C4054210086F952 /* Tymr Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BC1F352C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr Watch AppTests" */;
+			buildPhases = (
+				83BC1F162C4054210086F952 /* Sources */,
+				83BC1F172C4054210086F952 /* Frameworks */,
+				83BC1F182C4054210086F952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83BC1F1C2C4054210086F952 /* PBXTargetDependency */,
+			);
+			name = "Tymr Watch AppTests";
+			productName = "Tymr Watch AppTests";
+			productReference = 83BC1F1A2C4054210086F952 /* Tymr Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83BC1F232C4054210086F952 /* Tymr Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BC1F382C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr Watch AppUITests" */;
+			buildPhases = (
+				83BC1F202C4054210086F952 /* Sources */,
+				83BC1F212C4054210086F952 /* Frameworks */,
+				83BC1F222C4054210086F952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83BC1F262C4054210086F952 /* PBXTargetDependency */,
+			);
+			name = "Tymr Watch AppUITests";
+			productName = "Tymr Watch AppUITests";
+			productReference = 83BC1F242C4054210086F952 /* Tymr Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83BC1EFC2C40541F0086F952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					83BC1F012C40541F0086F952 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					83BC1F072C40541F0086F952 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					83BC1F192C4054210086F952 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 83BC1F072C40541F0086F952;
+					};
+					83BC1F232C4054210086F952 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 83BC1F072C40541F0086F952;
+					};
+				};
+			};
+			buildConfigurationList = 83BC1EFF2C40541F0086F952 /* Build configuration list for PBXProject "Tymr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83BC1EFB2C40541F0086F952;
+			productRefGroup = 83BC1F032C40541F0086F952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83BC1F012C40541F0086F952 /* Tymr */,
+				83BC1F072C40541F0086F952 /* Tymr Watch App */,
+				83BC1F192C4054210086F952 /* Tymr Watch AppTests */,
+				83BC1F232C4054210086F952 /* Tymr Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83BC1F002C40541F0086F952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC1F062C40541F0086F952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BC1F152C4054210086F952 /* Preview Assets.xcassets in Resources */,
+				83BC1F122C4054210086F952 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC1F182C4054210086F952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC1F222C4054210086F952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83BC1F042C40541F0086F952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BC1F102C40541F0086F952 /* ContentView.swift in Sources */,
+				83BC1F0E2C40541F0086F952 /* TymrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC1F162C4054210086F952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BC1F1F2C4054210086F952 /* Tymr_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC1F202C4054210086F952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BC1F2B2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift in Sources */,
+				83BC1F292C4054210086F952 /* Tymr_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83BC1F0B2C40541F0086F952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83BC1F072C40541F0086F952 /* Tymr Watch App */;
+			targetProxy = 83BC1F0A2C40541F0086F952 /* PBXContainerItemProxy */;
+		};
+		83BC1F1C2C4054210086F952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83BC1F072C40541F0086F952 /* Tymr Watch App */;
+			targetProxy = 83BC1F1B2C4054210086F952 /* PBXContainerItemProxy */;
+		};
+		83BC1F262C4054210086F952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83BC1F072C40541F0086F952 /* Tymr Watch App */;
+			targetProxy = 83BC1F252C4054210086F952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83BC1F2C2C4054210086F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83BC1F2D2C4054210086F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		83BC1F2F2C4054210086F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tymr Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AQ6878484B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tymr;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Tymr.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		83BC1F302C4054210086F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tymr Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AQ6878484B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tymr;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Tymr.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		83BC1F332C4054210086F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				INFOPLIST_KEY_CFBundleDisplayName = Tymr;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Tymr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83BC1F342C4054210086F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				INFOPLIST_KEY_CFBundleDisplayName = Tymr;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Tymr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83BC1F362C4054210086F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Tymr-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tymr Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tymr Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		83BC1F372C4054210086F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Tymr-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tymr Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tymr Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		83BC1F392C4054210086F952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Tymr-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tymr Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		83BC1F3A2C4054210086F952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ6878484B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.Tymr-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tymr Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83BC1EFF2C40541F0086F952 /* Build configuration list for PBXProject "Tymr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BC1F2C2C4054210086F952 /* Debug */,
+				83BC1F2D2C4054210086F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BC1F2E2C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BC1F2F2C4054210086F952 /* Debug */,
+				83BC1F302C4054210086F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BC1F322C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BC1F332C4054210086F952 /* Debug */,
+				83BC1F342C4054210086F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BC1F352C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BC1F362C4054210086F952 /* Debug */,
+				83BC1F372C4054210086F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BC1F382C4054210086F952 /* Build configuration list for PBXNativeTarget "Tymr Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BC1F392C4054210086F952 /* Debug */,
+				83BC1F3A2C4054210086F952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83BC1EFC2C40541F0086F952 /* Project object */;
+}
