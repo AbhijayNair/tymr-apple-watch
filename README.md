@@ -9,5 +9,5 @@ I used to spend about two hours on an evereage in the gym and probably after the
 
 ### How to run
 1. Clone this repository on your system
-2. `git clone https://github.com/AbhijayNair/tymr-apple-watch.git`
-3. Build the project on XCode, select you watch target and run
+   `git clone https://github.com/AbhijayNair/tymr-apple-watch.git`
+2. Build the project on XCode, select you watch target and run
