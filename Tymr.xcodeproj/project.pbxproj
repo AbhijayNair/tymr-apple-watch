@@ -15,6 +15,17 @@
 		83BC1F1F2C4054210086F952 /* Tymr_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F1E2C4054210086F952 /* Tymr_Watch_AppTests.swift */; };
 		83BC1F292C4054210086F952 /* Tymr_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F282C4054210086F952 /* Tymr_Watch_AppUITests.swift */; };
 		83BC1F2B2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F2A2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift */; };
+		83BC1F3C2C4054480086F952 /* HomeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F3B2C4054480086F952 /* HomeScrollView.swift */; };
+		83BC1F3E2C40547E0086F952 /* HomeTimerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F3D2C40547E0086F952 /* HomeTimerCard.swift */; };
+		83BC1F402C4063440086F952 /* WorkoutRestTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F3F2C4063440086F952 /* WorkoutRestTimer.swift */; };
+		83BC1F422C4063570086F952 /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F412C4063570086F952 /* PomodoroTimer.swift */; };
+		83BC1F4A2C4065C40086F952 /* TimerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F492C4065C40086F952 /* TimerOption.swift */; };
+		83BC1F4C2C4069270086F952 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F4B2C4069270086F952 /* TimerView.swift */; };
+		83BC1F532C485A7F0086F952 /* WorkoutNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F522C485A7F0086F952 /* WorkoutNavView.swift */; };
+		83BC1F552C485AF50086F952 /* WorkoutHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F542C485AF50086F952 /* WorkoutHomeView.swift */; };
+		83BC1F592C485DB20086F952 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F582C485DB20086F952 /* WorkoutManager.swift */; };
+		83BC1F5C2C4867FF0086F952 /* PomodoroHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F5B2C4867FF0086F952 /* PomodoroHomeView.swift */; };
+		83BC1F5E2C4DCB2B0086F952 /* PomodoroNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1F5D2C4DCB2B0086F952 /* PomodoroNavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +78,19 @@
 		83BC1F242C4054210086F952 /* Tymr Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tymr Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BC1F282C4054210086F952 /* Tymr_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tymr_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		83BC1F2A2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tymr_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83BC1F3B2C4054480086F952 /* HomeScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScrollView.swift; sourceTree = "<group>"; };
+		83BC1F3D2C40547E0086F952 /* HomeTimerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTimerCard.swift; sourceTree = "<group>"; };
+		83BC1F3F2C4063440086F952 /* WorkoutRestTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRestTimer.swift; sourceTree = "<group>"; };
+		83BC1F412C4063570086F952 /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
+		83BC1F492C4065C40086F952 /* TimerOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOption.swift; sourceTree = "<group>"; };
+		83BC1F4B2C4069270086F952 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		83BC1F4F2C48518A0086F952 /* Tymr Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tymr Watch App.entitlements"; sourceTree = "<group>"; };
+		83BC1F522C485A7F0086F952 /* WorkoutNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutNavView.swift; sourceTree = "<group>"; };
+		83BC1F542C485AF50086F952 /* WorkoutHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeView.swift; sourceTree = "<group>"; };
+		83BC1F582C485DB20086F952 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		83BC1F5A2C48637B0086F952 /* Tymr-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tymr-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		83BC1F5B2C4867FF0086F952 /* PomodoroHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroHomeView.swift; sourceTree = "<group>"; };
+		83BC1F5D2C4DCB2B0086F952 /* PomodoroNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroNavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +142,11 @@
 		83BC1F0C2C40541F0086F952 /* Tymr Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				83BC1F5A2C48637B0086F952 /* Tymr-Watch-App-Info.plist */,
+				83BC1F4F2C48518A0086F952 /* Tymr Watch App.entitlements */,
+				83BC1F482C4065A80086F952 /* Model */,
 				83BC1F0D2C40541F0086F952 /* TymrApp.swift */,
-				83BC1F0F2C40541F0086F952 /* ContentView.swift */,
+				83BC1F462C4065920086F952 /* Views */,
 				83BC1F112C4054210086F952 /* Assets.xcassets */,
 				83BC1F132C4054210086F952 /* Preview Content */,
 			);
@@ -149,6 +176,48 @@
 				83BC1F2A2C4054210086F952 /* Tymr_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "Tymr Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		83BC1F462C4065920086F952 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F0F2C40541F0086F952 /* ContentView.swift */,
+				83BC1F3B2C4054480086F952 /* HomeScrollView.swift */,
+				83BC1F3D2C40547E0086F952 /* HomeTimerCard.swift */,
+				83BC1F562C485C0B0086F952 /* WorkoutRestTimerViews */,
+				83BC1F572C485C880086F952 /* PomodoroTimerViews */,
+				83BC1F4B2C4069270086F952 /* TimerView.swift */,
+				83BC1F582C485DB20086F952 /* WorkoutManager.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83BC1F482C4065A80086F952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F492C4065C40086F952 /* TimerOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83BC1F562C485C0B0086F952 /* WorkoutRestTimerViews */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F522C485A7F0086F952 /* WorkoutNavView.swift */,
+				83BC1F3F2C4063440086F952 /* WorkoutRestTimer.swift */,
+				83BC1F542C485AF50086F952 /* WorkoutHomeView.swift */,
+			);
+			path = WorkoutRestTimerViews;
+			sourceTree = "<group>";
+		};
+		83BC1F572C485C880086F952 /* PomodoroTimerViews */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1F412C4063570086F952 /* PomodoroTimer.swift */,
+				83BC1F5B2C4867FF0086F952 /* PomodoroHomeView.swift */,
+				83BC1F5D2C4DCB2B0086F952 /* PomodoroNavView.swift */,
+			);
+			path = PomodoroTimerViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +378,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BC1F5E2C4DCB2B0086F952 /* PomodoroNavView.swift in Sources */,
+				83BC1F4C2C4069270086F952 /* TimerView.swift in Sources */,
+				83BC1F552C485AF50086F952 /* WorkoutHomeView.swift in Sources */,
+				83BC1F422C4063570086F952 /* PomodoroTimer.swift in Sources */,
+				83BC1F532C485A7F0086F952 /* WorkoutNavView.swift in Sources */,
+				83BC1F5C2C4867FF0086F952 /* PomodoroHomeView.swift in Sources */,
+				83BC1F592C485DB20086F952 /* WorkoutManager.swift in Sources */,
 				83BC1F102C40541F0086F952 /* ContentView.swift in Sources */,
+				83BC1F3C2C4054480086F952 /* HomeScrollView.swift in Sources */,
+				83BC1F402C4063440086F952 /* WorkoutRestTimer.swift in Sources */,
+				83BC1F3E2C40547E0086F952 /* HomeTimerCard.swift in Sources */,
+				83BC1F4A2C4065C40086F952 /* TimerOption.swift in Sources */,
 				83BC1F0E2C40541F0086F952 /* TymrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,12 +551,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tymr Watch App/Tymr Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tymr Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = AQ6878484B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tymr-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Tymr;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -501,12 +583,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tymr Watch App/Tymr Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tymr Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = AQ6878484B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tymr-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Tymr;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;

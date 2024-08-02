@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Tymr_Watch_AppApp: App {
+    
+    @StateObject var workoutManager = WorkoutManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                HomeScrollView()
+            }.environmentObject(workoutManager)
         }
     }
 }
