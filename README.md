@@ -11,7 +11,7 @@ I used to spend about two hours on an evereage in the gym and probably after the
 ## How to run
 1. Clone this repository on your system
    `git clone https://github.com/AbhijayNair/tymr-apple-watch.git`
-2. Build the project on XCode, select you watch target and run
+2. Build the project on XCode, select your watch target and run
 
 ## To-do Features
 1. Need an app logo, the default logo is dis..., not something I like to look at
