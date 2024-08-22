@@ -6,10 +6,10 @@ I used to spend about two hours on an evereage in the gym and probably after the
 
 ## Screenshots
 
-![Simulator Screenshot - Apple Watch Ultra 2 (49mm) - 2024-08-22 at 16 20 45](https://github.com/user-attachments/assets/bfa188fd-44a5-4c61-a87d-d6885332a252)
-![Simulator Screenshot - Apple Watch Ultra 2 (49mm) - 2024-08-22 at 16 21 52](https://github.com/user-attachments/assets/dde71df6-6065-4d41-91f1-b51330f1fa49)
-![Simulator Screenshot - Apple Watch Ultra 2 (49mm) - 2024-08-22 at 16 21 32](https://github.com/user-attachments/assets/3720711e-5d3b-433a-bd5a-670fe5c6db30)
-![Simulator Screenshot - Apple Watch Ultra 2 (49mm) - 2024-08-22 at 16 22 46](https://github.com/user-attachments/assets/f7345349-665d-4de3-87e0-3fc24d69ca1a)
+<img src="https://github.com/user-attachments/assets/bfa188fd-44a5-4c61-a87d-d6885332a252" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/dde71df6-6065-4d41-91f1-b51330f1fa49" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/3720711e-5d3b-433a-bd5a-670fe5c6db30" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/f7345349-665d-4de3-87e0-3fc24d69ca1a" width="200" height="200"/>
 
 ## Stack
 1. **HealthKit** - To start/ stop the workout, get heart rate and calories burned throughout the workout
